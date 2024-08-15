@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap');
+
+/* 
+Fazer variáveis de cor -->
+
+    :root {
+    -- "nome da variável sem espaço": #cor
+}
+
+*/
+:root {
+
+    --fonte-destaque: 'Bebas Neue';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #B0CA65;
+}
+header {
+    background-image: linear-gradient(to bottom, #B0CA65, #3C5100);
+    margin: 0px;
+    border: 0px;
+    padding-top: 40px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header > p {
+    font-size: 0.75em;
+    padding-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+    color: #101600;
+}
+
+footer strong {
+    font-weight: bold;
+    color: white;
+}
+
+
+main a {
+    text-decoration: none;
+    color: #5F7914;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article > h1, h2 {
+    font-family: Idroid;
+    font-weight: normal
+    
+}
+
+header > h1, header > p {
+    color: white;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.281);
+    text-align: center ;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    border-radius: 5px 5px 0px 0px;
+    color: #3C5100;
+    background-color: rgba(255, 255, 255, 0.884);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+main {
+    min-width: 300px;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.24);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+article > p , .aprenda p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 15px 0px;
+    line-height: 2em;
+}
+
+article > h1, h2 {
+    text-align: left;
+    color: #3C5100;
+    font-weight: normal
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #DDF2A1, white);
+    text-indent: 10px;
+}
+
+footer {
+    background-color: #101600;
+    color: white;
+    padding: 5px;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0px;
+}
+
+div.video {
+    background-color: #101600;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.aprenda {
+    background-color: #DDF2A1;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.aprenda > h3 {
+    background-color: #5F7914;
+    text-align: left;
+    color: white;
+    padding: 5px;
+}
+
+.aprenda > ul {
+    text-decoration: underline;
+    list-style-type: '\2714\00A0\00A0'; /* não é compatível com todos navegadores*/
+    text-align: justify;
+    list-style-position: inside;
+    columns: 2;
+}
+
+abbr {
+    text-decoration: none;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(75, 75, 75);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(95, 95, 95);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.226);
+        }
+
+        article {
+            background-color: rgb(190, 190, 190);
+            padding-top: 10px;
+        }
+        
+        article > aside {
+            background-color: rgb(95, 95, 95);
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quod molestias, porro adipisci libero vero dolorem consequuntur delectus illum optio earum harum? Fugit ea quis, facilis neque rem repellat velit.</p>
+                <aside>
+                    <p>Artigo escrito por J.A.</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno Simon Ferreira</p>
+
+    </footer>
+  </body>
+</html>

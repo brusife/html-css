@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body { 
+    background-color: lightgoldenrodyellow;
+    color: chocolate;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h1, h2, li {
+    color: brown;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
