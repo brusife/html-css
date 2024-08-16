@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    padding-top: 0px;
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 20x;
+    margin-top: 0px;
+    font-family: "Great Vibes", cursive;
+    font-size: 4em;
+    text-align: center;
+    
+}
