@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 450px;
+            border-radius: 15px;
+            border: 2px solid blueviolet;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de iframe</h1>
     <p>Acessando o site do 
         
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <!-- Tamanho padrão IFRAME 300x150-->
+        
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="600" scrolling="no"></iframe>
         
         para aprender a programar.</p>
-        <p>O site do <iframe src="https://www.google.com" frameborder="0"></iframe> também é muito legal</p>
+
+        <p>
+            O repositório do Guanabara 
+
+            <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500"></iframe>
+
+            também é bem legal.
+        </p>
     
+        <iframe src="https://jovemnerd.com.br/" frameborder="0"></iframe>
+
 </body>
 </html>
