@@ -9,6 +9,9 @@
             background-color: lightsalmon;
             display: flex;
             flex-flow: row wrap;
+            align-items: flex-start;
+            justify-content: space-around;
+            height: 400px;
         }
         div.item {
             background-color: lightblue;
@@ -18,35 +21,36 @@
         }
 
         div#i1 {
-            order: 0;
+            
         }
 
         div#i2 {
-            order: -2;
+            
         }
 
         div#i3 {
-            order: 4;
+            align-self: flex-end;
         }
 
         div#i4 {
-            order: 8;
+            
         }
 
         div#i5 {
-            order: 2;
+            align-self: center;
         }
 
         div#i6 {
-            order: 0;
+            
         }
 
         div#i7 {
-            order: 2;
+            align-self: stretch;
+            
         }
 
         div#i8 {
-            order: -4;
+           
         }
     </style>
 </head>
